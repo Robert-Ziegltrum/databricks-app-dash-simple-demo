@@ -1,0 +1,9 @@
+command: ["python", "app.py"]
+
+env:
+  # Optional: pin a specific warehouse. If omitted, the app auto-discovers one.
+  # - name: DATABRICKS_WAREHOUSE_ID
+  #   value: "your-warehouse-id-here"
+
+  - name: DATABRICKS_APP_PORT
+    value: "8080"
